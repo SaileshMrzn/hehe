@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: rgb(255, 129, 25);
+
+}
+
+.drag-area{
+	border: 2px dashed #fff;
+	border-radius:5px;
+	height:500px;
+	width:700px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+.drag-area.active{
+	border:2px solid #fff;
+}
+
+.drag-area.rolled{
+	border: none;
+}
+
+
+
+.drag-area header{
+	font-size:27px;
+	font-weight: 600;
+	color:#fff;
+}
+
+.test{
+	height:120px;
+	width:120px;
+	align-items: top;
+}
+
+.drag-area span{
+	font-size:23px;
+	font-weight: 600;
+	color:#fff;
+	margin: 10px 0 10px 0;
+
+}
+
+.drag-area button{
+	padding:10px 20px;
+	background:#fff;
+	color:black;
+	border:none;
+	outline: none;
+	border-radius:5px;
+	font-size: 15px;
+	cursor: pointer;
+
+}
+
+.vid{
+	height: 500px;
+	width: 700px;
+	position: absolute;
+	align-items: center;
+}
